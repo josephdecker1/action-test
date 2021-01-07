@@ -1,0 +1,24 @@
+{
+    "name": "pages-test",
+    "version": "0.0.1",
+    "description": "acquainting myself with github actions",
+    "main": "src/index.js",
+    "scripts": {
+        "start:dev": "parcel src/index.html",
+        "test": "jest",
+        "clean": "rm -rf .cache dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/josephdecker1/pages-test.git"
+    },
+    "author": "Joseph Decker",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/josephdecker1/pages-test/issues"
+    },
+    "homepage": "https://github.com/josephdecker1/pages-test#readme",
+    "devDependencies": {
+        "jest": "^26.6.3"
+    }
+}
