@@ -6,7 +6,8 @@ name: Node.js CI
 on:
   push:
     branches-ignore:
-      - main 
+      - main
+      - int
 
 jobs:
   build:
@@ -26,4 +27,4 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-    - run: docker version
+    - run: echo "this is dev!"
